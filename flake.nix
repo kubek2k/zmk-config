@@ -29,6 +29,8 @@
           license = nixpkgs.lib.licenses.mit;
           platforms = nixpkgs.lib.platforms.all;
         };
+
+        snippets = ["zmk-usb-logging"];
       };
 
       flash = zmk-nix.packages.${system}.flash.override { inherit firmware; };
