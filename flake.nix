@@ -23,6 +23,9 @@
         shield = "corne_%PART%";
         #shield = "settings_reset";
 
+        # have to disable this on darwin since it fails miserably
+        enableZmkStudio = if nixpkgs.stdenv.isDarwin then false else true;
+
         zephyrDepsHash = "sha256-1nMZWSEmDuUWoYvsUE4eV5fBAD6kNFw0ZHF3jDKwpLg=";
 
         meta = {
