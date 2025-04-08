@@ -14,7 +14,9 @@
     packages = forAllSystems (system: rec {
       default = firmware;
 
-      firmware = zmk-nix.legacyPackages.${system}.buildSplitKeyboard {
+      firmware = let 
+        pkgs = nixpkgs.legacyPackages.${system};
+      in zmk-nix.legacyPackages.${system}.buildSplitKeyboard {
         name = "firmware";
 
         src = nixpkgs.lib.sourceFilesBySuffices self [ ".board" ".cmake" ".conf" ".defconfig" ".dts" ".dtsi" ".json" ".keymap" ".overlay" ".shield" ".yml" "_defconfig" ];
@@ -24,7 +26,7 @@
         #shield = "settings_reset";
 
         # have to disable this on darwin since it fails miserably
-        enableZmkStudio = if nixpkgs.stdenv.isDarwin then false else true;
+        enableZmkStudio = if pkgs.stdenv.isDarwin then false else true;
 
         zephyrDepsHash = "sha256-1nMZWSEmDuUWoYvsUE4eV5fBAD6kNFw0ZHF3jDKwpLg=";
 
