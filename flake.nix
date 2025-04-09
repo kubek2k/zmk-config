@@ -25,8 +25,8 @@
         shield = "corne_%PART%";
         #shield = "settings_reset";
 
-        # have to disable this on darwin since it fails miserably
-        enableZmkStudio = if pkgs.stdenv.isDarwin then false else true;
+        # making sure this is effective
+        enableZmkStudio = true;
 
         zephyrDepsHash = "sha256-1nMZWSEmDuUWoYvsUE4eV5fBAD6kNFw0ZHF3jDKwpLg=";
 
