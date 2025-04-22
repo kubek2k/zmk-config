@@ -81,10 +81,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LGUI
-  - {t: ▽, type: trans}
+  - '3'
   - SPACE
   - RET
-  - {t: '3', type: held}
+  - {type: held}
   - RALT
   raise:
   - TAB
@@ -124,10 +124,10 @@ layers:
   - '|'
   - '~'
   - LGUI
-  - {t: '3', type: held}
+  - {type: held}
   - SPACE
   - RET
-  - {t: ▽, type: trans}
+  - '3'
   - RALT
   '3':
   - '&sys_reset'
@@ -167,7 +167,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
