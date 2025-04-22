@@ -20,7 +20,7 @@ layers:
   - {t: F, h: LSHIFT}
   - G
   - H
-  - {t: ;, h: RSHIFT}
+  - {t: J, h: RSHIFT}
   - {t: K, h: RGUI}
   - {t: L, h: RALT}
   - {t: ;, h: RCTRL}
