@@ -5,6 +5,10 @@ on:
   push:
     branches:
       - master
+    paths:
+      - flake.nix
+      - config/**
+      - nix/**
   workflow_dispatch:
 
 jobs:
