@@ -25,8 +25,7 @@
         shield = "corne_%PART%";
         #shield = "settings_reset";
 
-        # making sure this is effective
-        enableZmkStudio = true;
+        enableZmkStudio = false;
 
         zephyrDepsHash = "sha256-1nMZWSEmDuUWoYvsUE4eV5fBAD6kNFw0ZHF3jDKwpLg=";
 
