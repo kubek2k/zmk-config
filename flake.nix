@@ -45,6 +45,7 @@
 
     devShells = forAllSystems (system: {
       default = zmk-nix.devShells.${system}.default;
+      keymap_drawer = import ./nix/keymap_drawer.nix { pkgs = nixpkgs.legacyPackages.${system}; };
     });
   };
 }
