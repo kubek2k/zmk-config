@@ -41,6 +41,9 @@
 
       flash = zmk-nix.packages.${system}.flash.override { inherit firmware; };
       update = zmk-nix.packages.${system}.update;
+      zmk-viewer = let 
+        pkgs = nixpkgs.legacyPackages.${system};
+      in (import ./nix/zmk-viewer.nix { inherit pkgs; });
     });
 
     devShells = forAllSystems (system: {
