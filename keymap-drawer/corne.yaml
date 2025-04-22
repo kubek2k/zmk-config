@@ -148,10 +148,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - Gui+LEFT
+  - Gui+Sft+TAB
   - Gui+TAB
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - Sft+Gui+TAB
+  - Gui+RIGHT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
