@@ -22,8 +22,8 @@
         src = nixpkgs.lib.sourceFilesBySuffices self [ ".board" ".cmake" ".conf" ".defconfig" ".dts" ".dtsi" ".json" ".keymap" ".overlay" ".shield" ".yml" "_defconfig" ];
 
         board = "nice_nano_v2";
-        shield = "corne_%PART%";
-        #shield = "settings_reset";
+        # shield = "corne_%PART%";
+        shield = "settings_reset";
 
         enableZmkStudio = false;
 
