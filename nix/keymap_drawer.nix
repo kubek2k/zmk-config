@@ -3,6 +3,7 @@
 pkgs.mkShell rec {
     buildInputs = with pkgs; [
         python311
+        librsvg
         python311Packages.pip
     ];
 
