@@ -16,12 +16,12 @@ layers:
   - LCTRL
   - {t: A, h: LCTRL}
   - {t: S, h: LALT}
-  - D
-  - F
+  - {t: D, h: LGUI}
+  - {t: F, h: LSHIFT}
   - G
   - H
-  - J
-  - K
+  - {t: ;, h: RSHIFT}
+  - {t: K, h: RGUI}
   - {t: L, h: RALT}
   - {t: ;, h: RCTRL}
   - ''''
