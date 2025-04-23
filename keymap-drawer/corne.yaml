@@ -13,7 +13,7 @@ layers:
   - O
   - P
   - BSPC
-  - LCTRL
+  - '`'
   - {t: A, h: LCTRL}
   - {t: S, h: LALT}
   - {t: D, h: LGUI}
