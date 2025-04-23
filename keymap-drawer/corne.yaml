@@ -74,10 +74,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - Alt+LEFT ARROW
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Alt+RIGHT ARROW
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LGUI
