@@ -75,8 +75,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - Alt+LEFT ARROW
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Alt+DOWN ARROW
+  - Alt+UP ARROW
   - Alt+RIGHT ARROW
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
