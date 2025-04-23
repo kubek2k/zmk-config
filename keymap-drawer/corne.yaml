@@ -55,7 +55,7 @@ layers:
   - '8'
   - '9'
   - '0'
-  - BSPC
+  - Alt+BSPC
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -130,7 +130,7 @@ layers:
   - '3'
   - RALT
   '3':
-  - '&sys_reset'
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -154,7 +154,7 @@ layers:
   - Gui+RIGHT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&bootloader'
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -175,3 +175,7 @@ layers:
 combos:
 - p: [16, 19]
   k: '&caps_word'
+- p: [0, 24, 29, 5]
+  k: '&bootloader'
+- p: [0, 24]
+  k: '&sys_reset'

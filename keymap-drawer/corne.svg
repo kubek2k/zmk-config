@@ -311,6 +311,20 @@ path.combo {
 <rect rx="6" ry="6" x="406" y="78" width="28" height="26" class="combo"/>
 <text x="420" y="91" class="combo tap"><tspan style="font-size: 70%">&amp;caps_word</tspan></text>
 </g>
+<g class="combo combopos-1">
+<path d="M168,102 l-123,-46" class="combo"/>
+<path d="M168,102 l-123,52" class="combo"/>
+<path d="M168,102 l123,46" class="combo"/>
+<path d="M168,102 l123,-52" class="combo"/>
+<rect rx="6" ry="6" x="154" y="88" width="28" height="26" class="combo"/>
+<text x="168" y="102" class="combo tap"><tspan style="font-size: 64%">&amp;bootloader</tspan></text>
+</g>
+<g class="combo combopos-2">
+<path d="M28,105 l0,-37" class="combo"/>
+<path d="M28,105 l0,37" class="combo"/>
+<rect rx="6" ry="6" x="14" y="92" width="28" height="26" class="combo"/>
+<text x="28" y="105" class="combo tap"><tspan style="font-size: 70%">&amp;sys_reset</tspan></text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 331)" class="layer-lower">
@@ -363,7 +377,9 @@ path.combo {
 </g>
 <g transform="translate(812, 49)" class="key keypos-11">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">BSPC</text>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-0.6em">Alt+</tspan><tspan x="0" dy="1.2em">BSPC</tspan>
+</text>
 </g>
 <g transform="translate(28, 105)" class="key trans keypos-12">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
@@ -490,6 +506,20 @@ path.combo {
 <path d="M420,91 l149,0" class="combo"/>
 <rect rx="6" ry="6" x="406" y="78" width="28" height="26" class="combo"/>
 <text x="420" y="91" class="combo tap"><tspan style="font-size: 70%">&amp;caps_word</tspan></text>
+</g>
+<g class="combo combopos-1">
+<path d="M168,102 l-123,-46" class="combo"/>
+<path d="M168,102 l-123,52" class="combo"/>
+<path d="M168,102 l123,46" class="combo"/>
+<path d="M168,102 l123,-52" class="combo"/>
+<rect rx="6" ry="6" x="154" y="88" width="28" height="26" class="combo"/>
+<text x="168" y="102" class="combo tap"><tspan style="font-size: 64%">&amp;bootloader</tspan></text>
+</g>
+<g class="combo combopos-2">
+<path d="M28,105 l0,-37" class="combo"/>
+<path d="M28,105 l0,37" class="combo"/>
+<rect rx="6" ry="6" x="14" y="92" width="28" height="26" class="combo"/>
+<text x="28" y="105" class="combo tap"><tspan style="font-size: 70%">&amp;sys_reset</tspan></text>
 </g>
 </g>
 </g>
@@ -670,14 +700,28 @@ path.combo {
 <rect rx="6" ry="6" x="406" y="78" width="28" height="26" class="combo"/>
 <text x="420" y="91" class="combo tap"><tspan style="font-size: 70%">&amp;caps_word</tspan></text>
 </g>
+<g class="combo combopos-1">
+<path d="M168,102 l-123,-46" class="combo"/>
+<path d="M168,102 l-123,52" class="combo"/>
+<path d="M168,102 l123,46" class="combo"/>
+<path d="M168,102 l123,-52" class="combo"/>
+<rect rx="6" ry="6" x="154" y="88" width="28" height="26" class="combo"/>
+<text x="168" y="102" class="combo tap"><tspan style="font-size: 64%">&amp;bootloader</tspan></text>
+</g>
+<g class="combo combopos-2">
+<path d="M28,105 l0,-37" class="combo"/>
+<path d="M28,105 l0,37" class="combo"/>
+<rect rx="6" ry="6" x="14" y="92" width="28" height="26" class="combo"/>
+<text x="28" y="105" class="combo tap"><tspan style="font-size: 70%">&amp;sys_reset</tspan></text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 992)" class="layer-3">
 <text x="0" y="28" class="label" id="x_x">3:</text>
 <g transform="translate(0, 56)">
-<g transform="translate(28, 49)" class="key keypos-0">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap"><tspan style="font-size: 70%">&amp;sys_reset</tspan></text>
+<g transform="translate(28, 49)" class="key trans keypos-0">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
+<text x="0" y="0" class="key trans tap">▽</text>
 </g>
 <g transform="translate(84, 49)" class="key trans keypos-1">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
@@ -783,9 +827,9 @@ path.combo {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
 <text x="0" y="0" class="key trans tap">▽</text>
 </g>
-<g transform="translate(28, 161)" class="key keypos-24">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap"><tspan style="font-size: 64%">&amp;bootloader</tspan></text>
+<g transform="translate(28, 161)" class="key trans keypos-24">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
+<text x="0" y="0" class="key trans tap">▽</text>
 </g>
 <g transform="translate(84, 161)" class="key trans keypos-25">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
@@ -858,6 +902,20 @@ path.combo {
 <path d="M420,91 l149,0" class="combo"/>
 <rect rx="6" ry="6" x="406" y="78" width="28" height="26" class="combo"/>
 <text x="420" y="91" class="combo tap"><tspan style="font-size: 70%">&amp;caps_word</tspan></text>
+</g>
+<g class="combo combopos-1">
+<path d="M168,102 l-123,-46" class="combo"/>
+<path d="M168,102 l-123,52" class="combo"/>
+<path d="M168,102 l123,46" class="combo"/>
+<path d="M168,102 l123,-52" class="combo"/>
+<rect rx="6" ry="6" x="154" y="88" width="28" height="26" class="combo"/>
+<text x="168" y="102" class="combo tap"><tspan style="font-size: 64%">&amp;bootloader</tspan></text>
+</g>
+<g class="combo combopos-2">
+<path d="M28,105 l0,-37" class="combo"/>
+<path d="M28,105 l0,37" class="combo"/>
+<rect rx="6" ry="6" x="14" y="92" width="28" height="26" class="combo"/>
+<text x="28" y="105" class="combo tap"><tspan style="font-size: 70%">&amp;sys_reset</tspan></text>
 </g>
 </g>
 </g>
