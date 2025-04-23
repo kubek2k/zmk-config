@@ -55,10 +55,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp TAB    &kp N1  &kp N2  &kp N3    &kp N4  &kp N5       &kp N6              &kp N7    &kp N8    &kp N9               &kp N0  &kp LA(BSPC)
-&trans     &trans  &trans  &trans    &trans  &trans       &kp LEFT            &kp DOWN  &kp UP    &kp RIGHT            &trans  &trans
-&kp LSHFT  &trans  &trans  &trans    &trans  &trans       &kp LA(LEFT_ARROW)  &trans    &trans    &kp LA(RIGHT_ARROW)  &trans  &trans
-                           &kp LGUI  &mo 3   &kp SPACE    &kp RET             &trans    &kp RALT
+&kp TAB    &kp N1  &kp N2  &kp N3    &kp N4  &kp N5       &kp N6              &kp N7              &kp N8            &kp N9               &kp N0  &kp LA(BSPC)
+&trans     &trans  &trans  &trans    &trans  &trans       &kp LEFT            &kp DOWN            &kp UP            &kp RIGHT            &trans  &trans
+&kp LSHFT  &trans  &trans  &trans    &trans  &trans       &kp LA(LEFT_ARROW)  &kp LA(DOWN_ARROW)  &kp LA(UP_ARROW)  &kp LA(RIGHT_ARROW)  &trans  &trans
+                           &kp LGUI  &mo 3   &kp SPACE    &kp RET             &trans              &kp RALT
             >;
         };
 
