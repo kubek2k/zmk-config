@@ -81,7 +81,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LGUI
-  - '3'
+  - {t: ▽, type: trans}
   - SPACE
   - RET
   - {type: held}
@@ -127,9 +127,9 @@ layers:
   - {type: held}
   - SPACE
   - RET
-  - '3'
+  - {t: ▽, type: trans}
   - RALT
-  '3':
+  navigation:
   - {t: ▽, type: trans}
   - Gui+Q
   - Gui+W
