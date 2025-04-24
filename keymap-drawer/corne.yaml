@@ -136,10 +136,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - Ctl+Sft+TAB
+  - Ctl+Sft+`
+  - Ctl+`
   - Ctl+TAB
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
