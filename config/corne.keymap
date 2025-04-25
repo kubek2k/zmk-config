@@ -79,10 +79,10 @@
 
         navigation {
             bindings = <
-&trans  &kp LG(Q)     &kp LG(W)        &trans  &trans  &trans    &kp LC(LS(TAB))  &kp LC(LS(GRAVE))  &kp LC(GRAVE)  &kp LC(TAB)    &trans  &trans
-&trans  &kp C_VOL_DN  &kp C_VOLUME_UP  &trans  &trans  &trans    &kp LG(LEFT)     &kp LG(LS(TAB))    &kp LG(TAB)    &kp LG(RIGHT)  &trans  &trans
-&trans  &trans        &trans           &trans  &trans  &trans    &trans           &trans             &trans         &trans         &trans  &trans
-                                       &trans  &trans  &trans    &trans           &trans             &trans
+&trans  &kp LG(Q)     &kp LG(W)        &trans  &trans  &trans       &kp LC(LS(TAB))  &kp LC(LS(GRAVE))  &kp LC(GRAVE)  &kp LC(TAB)    &trans  &trans
+&trans  &kp C_VOL_DN  &kp C_VOLUME_UP  &trans  &trans  &trans       &kp LG(LEFT)     &kp LG(LS(TAB))    &kp LG(TAB)    &kp LG(RIGHT)  &trans  &trans
+&trans  &trans        &trans           &trans  &trans  &kp LC(B)    &trans           &trans             &trans         &trans         &trans  &trans
+                                       &trans  &trans  &trans       &trans           &trans             &trans
             >;
         };
     };
