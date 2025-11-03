@@ -177,5 +177,5 @@ combos:
   k: '&caps_word'
 - p: [0, 24, 29, 5]
   k: '&bootloader'
-- p: [0, 24]
-  k: '&sys_reset'
+- p: [5, 29]
+  k: BT CLR ALL
